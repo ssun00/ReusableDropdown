@@ -1,0 +1,11 @@
+.app {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+}
+
+.app-content {
+  flex: 1;
+}

@@ -1,0 +1,75 @@
+.dd-container {
+  position: relative;
+  text-align: left;
+  border: 2px solid rgb(141, 141, 186);
+  border-radius: 10px;
+  user-select: none;
+}
+
+.dd-label {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  cursor: default;
+  box-shadow: 0 2px 5px -1px rgb(162, 155, 155)
+}
+
+.dd-list {
+  position: absolute;
+  z-index: 10;
+  transform: translateY(5px);
+  width: 100%;
+  border: 1px solid rgb(161, 161, 212);
+  border-radius: 10px;
+  overflow: auto;
+  max-height: 140px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px -1px rgb(162, 155, 155);
+  text-align: left;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dd-item {
+  padding: 8px 10px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+.dd-item:hover {
+  background-color: rgb(184, 184, 227);
+}
+
+.dd-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.dd-tag-item {
+  background-color: rgb(215, 223, 243);
+  padding: 2px 5px;
+  border-radius: 2px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#arrow {
+  padding-top: 5px;
+  padding-right: 5px;
+  width: 20px;
+}
+
+#remove {
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 10px;
+}
+
+#checkbox {
+  width: 15px;
+  padding-right: 5px;
+  padding-top: 2px;
+}
